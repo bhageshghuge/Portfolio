@@ -23,7 +23,7 @@ const greeting = {
   username: "Bhagesh Ghuge",
   title: "Hi all, I'm Bhagesh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pdFykWu3ByQAZWiUzpYcopi5aH9INUO3/view?usp=sharing", // Set to empty to hide the button
@@ -133,7 +133,7 @@ const educationInfo = {
       subHeader: "Master of Computer Applications",
       duration: "June 2022 - August 2024",
       desc: "Participated in the research of The Future of Decentralized Internet and published papers.",
-      descBullets: ["CGPA : 6.9"]
+      descBullets: ["CGPA : 7.1"]
     },
     {
       schoolName: "St. John College of Humanities and Science",
@@ -170,33 +170,33 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer Intern",
+      company: "RCube Consulting",
+      companylogo: require("./assets/images/logo.png"),
+      date: "December 2023 – April 2024",
+      desc: "Engineered multi-panel screens for dynamic data retrieval and presentation, incorporating advanced features like sorting and filtering.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Spearheaded the development of user interfaces for a cutting-edge project leveraging PostgreSQL, Express, React,and Node.js technologies.",
+        "Implemented robust backend functionalities aligned with PostgreSQL standards and integrated user privilege features to ensure secure access control."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+     }
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -211,34 +211,68 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "Some of my personal projects.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/CCP.png"),
+      projectName: "Code Collaboration Platform",
+      projectDesc: "Collaborate with your friends and peers in real-time.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://bhageshghuge.github.io/Collaborative-Coding-Platform-Frontend/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/WeatherApp.png"),
+      projectName: "Weather App",
+      projectDesc: "A weather app built with React and OpenWeather API.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://bhageshghuge.github.io/React-Weather-App/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/RockPaperScissors.png"),
+      projectName: "Rock Paper Scissors",
+      projectDesc: "A simple game of Rock Paper Scissors built with React.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bhageshghuge.github.io/RPS_game/"
+        }
+      ]
+    },
+    // https://bhageshghuge.github.io/todo-app/
+    {
+      image: require("./assets/images/calculator.png"),
+      projectName: "Calculator",
+      projectDesc: "A simple calculator built with React.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bhageshghuge.github.io/calculator/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/todo.png"),
+      projectName: "Todo App",
+      projectDesc: "A simple todo app built with React.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bhageshghuge.github.io/todo-app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
