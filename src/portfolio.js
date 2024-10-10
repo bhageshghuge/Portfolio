@@ -227,6 +227,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/Bankio.png"),
+      projectName: "Bankio",
+      projectDesc: "A banking app built with React and Material UI.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bhageshghuge.github.io/Bankio/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/WeatherApp.png"),
       projectName: "Weather App",
       projectDesc: "A weather app built with React and OpenWeather API.",
